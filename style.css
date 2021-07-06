@@ -82,8 +82,7 @@ body{
   #reducer{
       background-image: url(images/shapes/Frame\ 59.jpg);
       background-repeat: no-repeat;
-      margin-left: -50px;
-      margin-right: 35px;
+      background-size: cover;
   }
   #back-repeat{
       background-image: url(images/shapes/Frame\ 57.jpg);
@@ -119,10 +118,10 @@ body{
   
   .mini-title {
     background-color: #0fbf611e;
-    color: #0fbf61;
+    color: darkcyan;
     width: fit-content;
-    border-radius: 5px;
-    padding: 5px 20px;
+    border-radius: 7px;
+    padding: 6px 19px;
   }
   
   .social-info {
@@ -153,6 +152,40 @@ body{
     color: white;
   }
   
+
+section#providing-info {
+  text-align: center;
+}
+form {
+  padding-top: 4%;
+}
+input[type="text"],
+[type="mail"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #008b51a2;
+  color: white;
+  padding: 16px 62px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #fc8f49;
+}
+
   footer h2,
   p {
     text-align: center;
