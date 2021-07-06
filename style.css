@@ -1,5 +1,6 @@
 body{
     font-family: 'Encode Sans SC', sans-serif;
+    margin: 0%;
 }
 .half-width {
     width: 50%;
@@ -78,6 +79,17 @@ body{
     color: darkseagreen;
     text-align: justify;
   }
+  #reducer{
+      background-image: url(images/shapes/Frame\ 59.jpg);
+      background-repeat: no-repeat;
+      margin-left: -50px;
+      margin-right: 35px;
+  }
+  #back-repeat{
+      background-image: url(images/shapes/Frame\ 57.jpg);
+      background-repeat: no-repeat;
+      margin-left: -45px;
+  }
   
   .box-position {
     align-items: top;
@@ -137,7 +149,7 @@ body{
     width: 100%;
     padding-top: 1%;
     padding-bottom: 6%;
-    background-color: #18191f;
+    background-color: lightcoral;
     color: white;
   }
   
